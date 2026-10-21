@@ -32,3 +32,14 @@
 GitHubリポジトリの Settings → Pages → Source を **GitHub Actions** に設定してください。`main`へのpushで`.github/workflows/pages.yml`が`dist/`を公開します。相対パスのためプロジェクト用URLにも対応しています。
 
 複数人は通常のポーズで中心間隔60cm、横向き寝姿では150cm。3人の前後差は10cm、大人数の行間は通常68cmで、まとまった構図を作れる配置です。
+
+## キャラクターと共有画像
+
+「スリープしない君」のMacくんと同じ、ふわふわフェルトのお友達シリーズ。ぎょぎょ太郎は水色のお魚、クリーム色のおなか、オレンジの背びれ、おなかの大きな魚眼レンズ、緑の瞳とにっこりした口が特徴です。
+
+- 透過原画：`dist/assets/gyogyotaro-plush.png`（RGBA）
+- OGP：`dist/assets/ogp.png`（1200×630）
+- favicon：`dist/favicon.ico`、`dist/assets/favicon-32.png`
+- ホーム画面用：`dist/assets/apple-touch-icon.png`
+
+キャラクターは組み込み画像生成ツールで作成。共通プロンプト：同じふわふわのウールフェルト素材、丸い造形、クリームの大きな目と深緑の瞳、刺繍のようなにっこり笑顔、やさしい光。魚眼レンズをおなかに持つ水色の魚、オレンジの背びれ。単体・背景透過、文字なし。
